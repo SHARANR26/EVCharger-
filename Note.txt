@@ -1,17 +1,17 @@
 Endpoints
-Sample Endpoint:
+1.Sample Endpoint:
 
 URL: http://127.0.0.1:8000/sample
 Response: {"message": "This is a sample endpoint"}
-API Request Endpoint:
+2.API Request Endpoint:
 
 URL: http://127.0.0.1:8000/api-request
 Description: Makes a request to the JSONPlaceholder API and returns a sample post.
-Current Location Endpoint:
+3.Current Location Endpoint:
 
 URL: http://127.0.0.1:8000/current-location
 Response: Returns location details based on IP address.
-Replay Location Endpoint:
+4.Replay Location Endpoint:
 
 URL: http://127.0.0.1:8000/replay-location
 Description: Calls the /current-location endpoint internally and returns the location details.
